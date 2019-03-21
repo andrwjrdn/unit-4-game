@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Crystal Collector</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  
+<!-- BOX -->
+  </head>
+  <body>
+    <h1>
+      <h1 class="h1">CRYSTAL COLLECTOR GAME</h1>
+    </h1>
+        <div class="box">
+            <div class="box-body">
+                <p class="box-text">1. When the page loads, a random number will appear above the 4 crystals.</p>
+                <p class="box-text">2. Each Crystal will have a random unknown value until clicked. <u>Give it a try!</u>         </p>
+                <p class="box-text">3. To recieve a win, click crystals to add up to match random number value.</p>
+                <p class="box-text">4. Each time the game restarts, the crystals receive another random value.</p>
+               
+<!-- CONTAINER -->
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div id="valueMatch" class="numberContainer float-left"></div>
+                    <div id="counter" class="numberContainer float-right">
+                        <h5>Wins: <span id="wins"></span></h5>
+                        <h5>Loss: <span id="loss"></span></h5>
+                    </div>
+                </li>
+<!-- CRYSTALS -->
+                <li class="list-group-item crystalContainer">
+                    <img src="assets/images/amethyst.jpg" class="crystal amethyst" alt="amethyst">
+                    <img src="assets/images/Carnelian.jpg" class="crystal carnelian" alt="carnelian">
+                    <img src="assets/images/QuartzPoint.jpg" class="crystal quartz" alt="quartz">
+                    <img src="assets/images/Celestite.jpg" class="crystal celestite" alt="celestite">
+                </li>
+                <li class="list-group-item test">Your Total Score is: </li>
+                <li>
+                    <div id="score" class="p-3 mb-2 bg-info text-white"></div>  
+                </li>
+            </ul>
+            <div class="box-body">
+                
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>

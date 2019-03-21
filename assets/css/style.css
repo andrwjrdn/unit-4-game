@@ -1,0 +1,80 @@
+body {
+    background: black;
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+h1 {
+    font-size: 90px !important;
+    text-align: center;
+    color: white !important; 
+    font-family: 'Righteous', cursive !important;
+    margin-bottom: 40px !important; 
+
+}
+
+.box {
+    width: 60%;
+    margin: 0 auto;
+    background-color:black;  
+    line-height: 36px;
+}
+
+p{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.crystal {
+    height: 100px;
+    width: 100px;
+    float:left;
+    padding: 1%;
+}
+
+.crystal:hover {
+    box-shadow: 15px 15px 15px grey;
+    transform: translate(5px,10px);
+    transition: box-shadow .5s, transform 2s;
+    cursor: pointer;
+
+}
+
+
+.crystalContainer{
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color:black;
+    
+}
+
+.numberContainer{
+    height:100px;
+    width:40%;
+    background:white;
+    font-size: 60px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.float-left {
+  padding-top: 35px;  
+}
+
+#counter{
+    font-size:20px;
+}
+
+#score{
+    height: 100px;
+    text-align: center;
+    font-size:50px;
+    background-color: black !important;
+}
+
+.test { 
+background-color: black !important; 
+color: white;
+}
+
