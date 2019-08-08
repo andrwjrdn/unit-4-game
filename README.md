@@ -1,10 +1,26 @@
-# unit-4-game
+# Crystal Collector Game
 
+The objective of this assignment was to build an interactive game where the HTML is dynamically updated using the jQuery library.
 
-1. When the page loads, a random number will appear above the 4 crystals.
+Click [here](https://andrwjrdn.github.io/unit-4-game/) to play the game. 
 
-2. Each Crystal will have a random unknown value until clicked. Give it a try!
+## How to Play
 
-3. To recieve a win, click crystals to add up to match random number value.
+* A random number is generated on the page
+* Four gems are also displayed as buttons, each with a different hidden value
+* Each time the player clicks on a button, that hidden value is added to their total score
+* If the player matches their score to the random number, they win the game!
+* When the game is restarted, a new random number and new gem values are assigned
 
-4. Each time the game restarts, the crystals receive another random value.
+## Design Notes
+* Gem buttons are assigned a number between 1 - 12
+* Random number generated is a number between 19 - 120
+
+## Built With
+* HTML5
+* CSS3
+* [Twitter Bootstrap](https://getbootstrap.com/)
+* Javascript
+* [jQuery Library](https://jquery.com/)
+* [Google Fonts](https://fonts.google.com/)
+
